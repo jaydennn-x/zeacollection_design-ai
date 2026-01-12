@@ -1,0 +1,22 @@
+# 경로 설정
+
+# 데이터 경로
+data:
+  raw_images: 'data/raw/fashion_images'
+  raw_drawings: 'data/raw/technical_drawings'
+  processed: 'data/processed'
+  datasets: 'data/datasets'
+  patterns: 'data/patterns'
+
+# 모델 경로
+models:
+  dexined: 'models/dexined'
+  vectorizer: 'models/vectorizer'
+  yolov8: 'models/yolov8'
+
+# 출력 경로
+outputs:
+  images: 'outputs/images'
+  vectors: 'outputs/vectors'
+  patterns: 'outputs/patterns'
+  logs: 'outputs/logs'
